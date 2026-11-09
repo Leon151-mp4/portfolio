@@ -3,28 +3,28 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Developer Portfolio | [Your Name]</title>
+    <meta name="theme-color" content="#0b1020" />
+    <title>Leonardo | Developer Portfolio</title>
     <meta
       name="description"
-      content="Personal developer portfolio featuring projects, skills, and contact information."
+      content="Leonardo's developer portfolio: open-source projects, software development, and a journey of continuous learning."
     />
     <meta name="robots" content="index, follow" />
-    <link rel="canonical" href="https://yourusername.github.io/portfolio/" />
+    <link rel="canonical" href="https://leon151-mp4.github.io/portfolio/" />
 
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="Developer Portfolio | [Your Name]" />
+    <meta property="og:title" content="Leonardo | Developer Portfolio" />
     <meta
       property="og:description"
-      content="Developer portfolio showcasing projects, skills, and GitHub links."
+      content="Explore Leonardo's software projects, open-source work, and development journey."
     />
-    <meta property="og:url" content="https://yourusername.github.io/portfolio/" />
-    <meta property="og:image" content="https://yourusername.github.io/portfolio/assets/og-image.jpg" />
+    <meta property="og:url" content="https://leon151-mp4.github.io/portfolio/" />
 
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Developer Portfolio | [Your Name]" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Leonardo | Developer Portfolio" />
     <meta
       name="twitter:description"
-      content="Developer portfolio showcasing projects, skills, and GitHub links."
+      content="Software projects, open-source work, and continuous learning."
     />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -39,24 +39,25 @@
   <body>
     <header class="site-header">
       <div class="container nav-wrap">
-        <a class="brand" href="#top" aria-label="Go to home section">[Your Name]</a>
+        <a class="brand" href="#top" aria-label="Go to home section">Leonardo</a>
 
         <button
           class="nav-toggle"
           type="button"
           aria-label="Toggle navigation menu"
           aria-expanded="false"
+          aria-controls="main-navigation"
         >
           <span></span>
           <span></span>
           <span></span>
         </button>
 
-        <nav class="site-nav" aria-label="Main navigation">
+        <nav id="main-navigation" class="site-nav" aria-label="Main navigation">
           <a href="#about">About</a>
-          <a href="#skills">Skills</a>
+          <a href="#skills">Technologies</a>
           <a href="#projects">Projects</a>
-          <a href="#contact">Contact</a>
+          <a href="#contact">GitHub</a>
         </nav>
       </div>
     </header>
@@ -66,30 +67,35 @@
         <div class="container hero-grid">
           <div class="hero-copy">
             <p class="eyebrow">Developer Portfolio</p>
-            <h1>Building thoughtful digital experiences.</h1>
+            <h1>Learning by building software.</h1>
             <p class="lede">
-              I’m a developer focused on clean interfaces, practical problem solving,
-              and learning by building. This portfolio highlights my work, tools,
-              and current learning journey.
+              I’m Leonardo. I enjoy turning ideas into practical projects,
+              exploring how software works, and improving my skills through
+              hands-on development.
             </p>
             <div class="hero-actions">
-              <a class="button button-primary" href="#projects">View projects</a>
-              <a class="button button-secondary" href="#contact">Contact</a>
+              <a class="button button-primary" href="#projects">Explore my projects</a>
+              <a
+                class="button button-secondary"
+                href="https://github.com/Leon151-mp4"
+                target="_blank"
+                rel="noopener noreferrer"
+              >Visit my GitHub</a>
             </div>
-            <ul class="meta-list" aria-label="Developer summary">
-              <li>HTML5</li>
-              <li>CSS3</li>
+            <ul class="meta-list" aria-label="Current areas of focus">
+              <li>Python</li>
               <li>JavaScript</li>
+              <li>Open source</li>
             </ul>
           </div>
 
-          <aside class="hero-panel" aria-label="Profile summary">
+          <aside class="hero-panel" aria-label="Current focus">
             <div class="panel-card">
-              <p class="panel-label">Currently</p>
-              <h2>[Your Role / Focus]</h2>
+              <p class="panel-label">Current focus</p>
+              <h2>Build. Learn. Improve.</h2>
               <p>
-                Exploring modern front-end workflows, user-centered design, and
-                practical software development.
+                Developing independent projects while exploring programming,
+                problem solving, and software design.
               </p>
             </div>
           </aside>
@@ -100,19 +106,20 @@
         <div class="container narrow">
           <div class="section-heading">
             <p class="eyebrow">About</p>
-            <h2>Developer, learner, and builder.</h2>
+            <h2>Curiosity turned into code.</h2>
           </div>
 
           <div class="about-grid">
             <p>
-              I’m a developer with a focus on writing maintainable, accessible, and
-              practical solutions. I enjoy exploring how good design and solid code
-              work together to improve the user experience.
+              I’m a developer who values learning through practice. I like
+              understanding the reasoning behind a solution, experimenting
+              with different technologies, and building projects from the ground up.
             </p>
             <p>
-              My current learning journey includes improving my understanding of web
-              fundamentals, front-end architecture, and polished user interfaces.
-              I’m always open to learning, collaboration, and meaningful projects.
+              My main interests include Python development, web technologies,
+              command-line applications, and open-source software. I’m focused
+              on steady progress, writing clearer code, and taking on more
+              challenging problems over time.
             </p>
           </div>
         </div>
@@ -121,44 +128,42 @@
       <section id="skills" class="section section-muted">
         <div class="container">
           <div class="section-heading">
-            <p class="eyebrow">Skills</p>
-            <h2>Core technologies and tools.</h2>
+            <p class="eyebrow">Technologies</p>
+            <h2>Tools I work with and explore.</h2>
           </div>
 
-          <div class="skills-grid" aria-label="Skills list">
+          <div class="skills-grid" aria-label="Technologies and interests">
             <article class="skill-card">
-              <h3>Languages</h3>
+              <h3>Programming</h3>
               <ul>
-                <li>HTML5</li>
-                <li>CSS3</li>
+                <li>Python</li>
                 <li>JavaScript</li>
               </ul>
             </article>
 
             <article class="skill-card">
-              <h3>Frontend</h3>
+              <h3>Web</h3>
               <ul>
-                <li>Responsive design</li>
-                <li>Accessibility</li>
-                <li>Semantic markup</li>
+                <li>HTML</li>
+                <li>CSS</li>
               </ul>
             </article>
 
             <article class="skill-card">
-              <h3>Workflow</h3>
+              <h3>Tools & environment</h3>
               <ul>
-                <li>GitHub</li>
-                <li>Version control</li>
-                <li>Project organization</li>
+                <li>Git and GitHub</li>
+                <li>Linux</li>
+                <li>Visual Studio Code</li>
               </ul>
             </article>
 
             <article class="skill-card">
-              <h3>Learning focus</h3>
+              <h3>Currently exploring</h3>
               <ul>
-                <li>UI quality</li>
-                <li>Performance</li>
-                <li>Problem solving</li>
+                <li>Rust and C++</li>
+                <li>Machine learning</li>
+                <li>Software architecture</li>
               </ul>
             </article>
           </div>
@@ -168,56 +173,46 @@
       <section id="projects" class="section">
         <div class="container">
           <div class="section-heading">
-            <p class="eyebrow">Projects</p>
-            <h2>Featured work.</h2>
+            <p class="eyebrow">Selected projects</p>
+            <h2>Things I’m building.</h2>
           </div>
 
           <div class="projects-grid">
             <article class="project-card">
               <div class="project-header">
-                <span class="project-tag">Featured</span>
+                <span class="project-tag">In development</span>
               </div>
               <h3>ZION-IA</h3>
               <p>
-                A featured project placeholder. Add a short summary describing the
-                idea, purpose, and technologies used.
+                A Python-based command-line personal assistant. The project
+                explores text classification and machine learning while
+                developing a practical, extensible assistant.
               </p>
               <div class="project-links">
-                <a href="https://github.com/Leon151-mp4/ZION-IA" target="_blank" rel="noreferrer">
-                  Repository ↗
-                </a>
+                <a
+                  href="https://github.com/Leon151-mp4/ZION-IA"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >View repository ↗</a>
               </div>
             </article>
 
             <article class="project-card">
               <div class="project-header">
-                <span class="project-tag">Project</span>
+                <span class="project-tag">In development</span>
               </div>
-              <h3>[Project Name]</h3>
+              <h3>OpenList</h3>
               <p>
-                Add a brief description of your project, the problem it solves, and
-                the stack used.
+                A lightweight Python command-line task manager. Built as a
+                practical project to explore CLI design, argument parsing,
+                file handling, and Python project structure.
               </p>
               <div class="project-links">
-                <a href="https://github.com/Leon151-mp4" target="_blank" rel="noreferrer">
-                  GitHub profile ↗
-                </a>
-              </div>
-            </article>
-
-            <article class="project-card">
-              <div class="project-header">
-                <span class="project-tag">Project</span>
-              </div>
-              <h3>[Project Name]</h3>
-              <p>
-                Add another example of your work to showcase your interests,
-                technical skills, or open-source contributions.
-              </p>
-              <div class="project-links">
-                <a href="https://github.com/Leon151-mp4" target="_blank" rel="noreferrer">
-                  GitHub profile ↗
-                </a>
+                <a
+                  href="https://github.com/Leon151-mp4/OpenList"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >View repository ↗</a>
               </div>
             </article>
           </div>
@@ -227,14 +222,16 @@
       <section id="contact" class="section section-muted">
         <div class="container narrow">
           <div class="section-heading">
-            <p class="eyebrow">Contact</p>
-            <h2>Let’s connect.</h2>
+            <p class="eyebrow">GitHub</p>
+            <h2>Find me and my work.</h2>
           </div>
 
-          <div class="contact-list" aria-label="Contact links">
-            <a href="https://github.com/Leon151-mp4" target="_blank" rel="noreferrer">GitHub</a>
-            <a href="https://www.linkedin.com" target="_blank" rel="noreferrer">LinkedIn</a>
-            <a href="mailto:your.email@example.com">Email</a>
+          <div class="contact-list" aria-label="GitHub profile">
+            <a
+              href="https://www.github.com/Leon151-mp4"
+              target="_blank"
+              rel="noopener noreferrer"
+            >github.com/Leon151-mp4 ↗</a>
           </div>
         </div>
       </section>
@@ -242,221 +239,15 @@
 
     <footer class="site-footer">
       <div class="container footer-wrap">
-        <p>© <span id="year"></span> [Your Name]</p>
-        <a href="https://github.com/Leon151-mp4" target="_blank" rel="noreferrer">GitHub</a>
+        <p>© <span id="year"></span> Leonardo</p>
+        <a
+          href="https://www.github.com/Leon151-mp4"
+          target="_blank"
+          rel="noopener noreferrer"
+        >GitHub</a>
       </div>
     </footer>
 
     <script src="script.js"></script>
   </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
