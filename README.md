@@ -2,7 +2,9 @@
 
 Personal developer portfolio showcasing selected projects, technologies, and my ongoing learning journey.
 
-## Live website
+## Deployment URL
+
+Once GitHub Pages is enabled, the website will be available at:
 
 [leon151-mp4.github.io/portfolio](https://leon151-mp4.github.io/portfolio/)
 
@@ -19,7 +21,7 @@ Personal developer portfolio showcasing selected projects, technologies, and my 
 
 ## Deployment
 
-This website is intended to be hosted with [GitHub Pages](https://pages.github.com/).
+This website is designed to be hosted with [GitHub Pages](https://pages.github.com/).
 
 ## Author
 
