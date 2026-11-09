@@ -1,28 +1,26 @@
-# Portfolio
+# Leonardo's Portfolio
 
-Personal developer portfolio built with the goal of presenting my work, projects, and learning journey.
+Personal developer portfolio showcasing selected projects, technologies, and my ongoing learning journey.
 
-## About
+## Live website
 
-This repository contains the source code for my personal portfolio website, which will be published using [GitHub Pages](https://pages.github.com/).
+[leon151-mp4.github.io/portfolio](https://leon151-mp4.github.io/portfolio/)
 
-## Goals
+## Featured projects
 
-- Present my development projects.
-- Share the technologies and tools I work with.
-- Provide a central place to find my GitHub projects and contact links.
+- **[ZION-IA](https://github.com/Leon151-mp4/ZION-IA)** — A Python-based command-line personal assistant exploring text classification and machine learning.
+- **[OpenList](https://github.com/Leon151-mp4/OpenList)** — A lightweight Python command-line task manager focused on CLI design, argument parsing, and file handling.
 
-## Technologies
+## Built with
 
-Planned:
 - HTML
 - CSS
 - JavaScript
 
-## Status
+## Deployment
 
-🚧 Under development.
+This website is intended to be hosted with [GitHub Pages](https://pages.github.com/).
 
-## License
+## Author
 
-No license has been selected for this repository yet.
+[Leonardo](https://www.github.com/Leon151-mp4)
